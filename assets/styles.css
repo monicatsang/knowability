@@ -1,4 +1,23 @@
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+main {
+    flex-grow: 1;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
 .social-logo {
     width: 33px;
     height: 33px;
+}
+
+.footer-link {
+    list-style-type: none;
+    padding-bottom: 10px;
 }
